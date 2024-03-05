@@ -1,0 +1,14 @@
+﻿@model IEnumerable<EcommerceNET.ViewModels.MerchandiseVM>
+
+@{
+    ViewData["Title"] = "Search";
+    Layout = "_GoodsList";
+}
+
+<h1>Search</h1>
+
+@await Html.PartialAsync("ProductItem", Model)
+
+
+
+
